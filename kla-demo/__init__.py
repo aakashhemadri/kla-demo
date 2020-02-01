@@ -28,3 +28,7 @@ __doc__ = """
 :date: 2020-02-01
 :copyright: %s
 """ % (__version__, __author__, __license__)
+
+import api from countries
+
+api.run()
